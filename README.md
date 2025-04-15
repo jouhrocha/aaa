@@ -1,4 +1,4 @@
-# Trading Pattern Analyzer
+# Premonition
 
 Bueno este es un projecto que quiero aportar a la comunidad github para que entre todos perfilemos el arte de la automatización en un bot de trading. Así contra más lo hagamos mas rentable sera operar con el.
 
