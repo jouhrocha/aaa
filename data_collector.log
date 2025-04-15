@@ -1,0 +1,1016 @@
+2025-03-24 15:20:50,707 - main - INFO - Exchange inicializado correctamente
+2025-03-24 15:20:51,926 - main - INFO - Configuración cargada correctamente
+2025-03-24 15:20:58,517 - main - INFO - Iniciando trading en vivo...
+2025-03-24 15:20:58,527 - core.data_fetcher - INFO - Exchange kraken inicializado correctamente
+2025-03-24 15:20:58,527 - core.bot - INFO - Bot inicializado para símbolo BTC/USD en timeframe 1h
+2025-03-24 15:20:58,537 - core.bot - INFO - Inicializando componentes del bot...
+2025-03-24 15:20:58,537 - core.bot - INFO - Inicializando base de datos...
+2025-03-24 15:20:58,537 - utils.database - INFO - Base de datos inicializada en data/patterns.db
+2025-03-24 15:20:58,547 - core.bot - INFO - Inicializando data fetcher para BTC/USD...
+2025-03-24 15:21:00,412 - utils.symbol_validator - INFO - Validador de símbolos inicializado para kraken
+2025-03-24 15:21:00,412 - utils.symbol_validator - INFO - Símbolo BTC/USDT es válido
+2025-03-24 15:21:03,357 - core.bot - INFO - Inicializando detector de patrones...
+2025-03-24 15:21:03,487 - core.pattern_detector - INFO - Patrones cargados: 3587
+2025-03-24 15:21:03,487 - core.bot - INFO - Inicializando ejecutor de trades...
+2025-03-24 15:21:03,487 - core.bot - INFO - Todos los componentes inicializados correctamente
+2025-03-24 15:21:03,487 - core.bot - INFO - Cargando datos históricos de 30 días para BTC/USD...
+2025-03-24 15:21:03,497 - core.bot - ERROR - Error al cargar datos históricos: DataFetcher.fetch_historical_data() got an unexpected keyword argument 'since'
+2025-03-24 15:21:03,497 - core.bot - ERROR - No se pudieron cargar datos históricos. Abortando.
+2025-03-24 15:21:03,497 - core.bot - INFO - Liberando recursos del bot...
+2025-03-24 15:21:03,997 - core.bot - INFO - Recursos del bot liberados.
+2025-03-24 15:21:03,997 - core.bot - INFO - Bot finalizado correctamente.
+2025-03-24 15:22:00,879 - main - INFO - Iniciando análisis de patrones...
+2025-03-24 15:22:00,879 - utils.database - INFO - Base de datos inicializada en data/patterns.db
+2025-03-24 15:22:00,879 - main - ERROR - Error en el análisis asíncrono de patrones: 'PatternAnalyzer' object has no attribute 'run_analysis'
+2025-03-24 15:22:00,879 - main - ERROR - Error en hilo de trabajo: 'PatternAnalyzer' object has no attribute 'run_analysis'
+2025-03-24 15:22:00,888 - main - ERROR - Error en el análisis de patrones: 'PatternAnalyzer' object has no attribute 'run_analysis'
+2025-03-24 15:25:14,286 - main - ERROR - Error en closeEvent: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 988 and this is thread id 10596.
+2025-03-24 15:25:26,002 - main - INFO - Exchange inicializado correctamente
+2025-03-24 15:25:27,298 - main - INFO - Configuración cargada correctamente
+2025-03-24 15:26:05,653 - main - INFO - Iniciando recopilación de datos...
+2025-03-24 15:26:05,653 - main - INFO - Configuración temporal actualizada en memoria.
+2025-03-24 15:26:05,653 - data_collector - INFO - Inicializando recopilador de datos históricos...
+2025-03-24 15:26:05,653 - data_collector - INFO - Inicializando validador de símbolos...
+2025-03-24 15:26:07,494 - utils.symbol_validator - INFO - Validador de símbolos inicializado para kraken
+2025-03-24 15:26:07,494 - data_collector - INFO - Inicializando data fetcher...
+2025-03-24 15:26:07,504 - core.data_fetcher - INFO - Exchange kraken inicializado correctamente
+2025-03-24 15:26:09,285 - utils.symbol_validator - INFO - Validador de símbolos inicializado para kraken
+2025-03-24 15:26:09,285 - utils.symbol_validator - INFO - Símbolo BTC/USDT es válido
+2025-03-24 15:26:12,246 - data_collector - ERROR - Error en la recopilación de datos: 'DataCollector' object has no attribute 'symbols_cache'
+2025-03-24 15:26:12,256 - data_collector - INFO - Liberando recursos...
+2025-03-24 15:26:12,767 - main - INFO - Recopilación de datos completada
+2025-03-24 15:26:12,777 - main - ERROR - Error al leer archivo 1INCH_EUR_1h.json: Expecting value: line 1 column 16 (char 15)
+2025-03-24 15:26:13,967 - main - INFO - Data collector marcado para cierre
+2025-03-24 15:26:31,615 - main - ERROR - Error al iniciar el análisis de patrones: 'TradingPatternAnalyzerApp' object has no attribute 'run_analyzer_btn'
+2025-03-24 15:27:56,313 - main - INFO - Exchange inicializado correctamente
+2025-03-24 15:27:57,541 - main - INFO - Configuración cargada correctamente
+2025-03-24 15:28:01,914 - main - INFO - Iniciando análisis de patrones...
+2025-03-24 15:28:01,924 - utils.database - INFO - Base de datos inicializada en data/patterns.db
+2025-03-24 15:28:01,924 - main - ERROR - Error en el análisis asíncrono de patrones: 'PatternAnalyzer' object has no attribute 'run_analysis'
+2025-03-24 15:28:01,924 - main - ERROR - Error en hilo de trabajo: 'PatternAnalyzer' object has no attribute 'run_analysis'
+2025-03-24 15:28:01,927 - main - ERROR - Error en el análisis de patrones: 'PatternAnalyzer' object has no attribute 'run_analysis'
+2025-03-24 15:33:09,183 - main - ERROR - Error en closeEvent: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 14488 and this is thread id 13008.
+2025-03-24 15:33:18,272 - main - INFO - Exchange inicializado correctamente
+2025-03-24 15:33:19,474 - main - INFO - Configuración cargada correctamente
+2025-03-24 15:33:24,299 - main - INFO - Iniciando análisis de patrones...
+2025-03-24 15:33:24,309 - utils.database - INFO - Base de datos inicializada en data/patterns.db
+2025-03-24 15:33:24,309 - main - ERROR - Error en el análisis asíncrono de patrones: 'PatternAnalyzer' object has no attribute 'analyze_patterns'
+2025-03-24 15:33:24,309 - main - ERROR - Error en hilo de trabajo: 'PatternAnalyzer' object has no attribute 'analyze_patterns'
+2025-03-24 15:33:24,316 - main - ERROR - Error en el análisis de patrones: 'PatternAnalyzer' object has no attribute 'analyze_patterns'
+2025-03-24 16:21:29,125 - main - ERROR - Error en closeEvent: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 12152 and this is thread id 3600.
+2025-03-24 16:40:56,596 - main - INFO - Exchange inicializado correctamente
+2025-03-24 16:40:58,024 - main - INFO - Configuración cargada correctamente
+2025-03-24 16:41:10,172 - main - INFO - Iniciando trading en vivo...
+2025-03-24 16:41:10,191 - core.data_fetcher - INFO - Exchange kraken inicializado correctamente
+2025-03-24 16:41:10,192 - core.bot - INFO - Bot inicializado para símbolo BTC/USD en timeframe 1h
+2025-03-24 16:41:10,196 - core.bot - INFO - Inicializando componentes del bot...
+2025-03-24 16:41:10,198 - core.bot - INFO - Inicializando base de datos...
+2025-03-24 16:41:10,202 - utils.database - INFO - Base de datos inicializada en data/patterns.db
+2025-03-24 16:41:10,203 - core.bot - INFO - Inicializando data fetcher para BTC/USD...
+2025-03-24 16:41:12,365 - utils.symbol_validator - INFO - Validador de símbolos inicializado para kraken
+2025-03-24 16:41:12,365 - utils.symbol_validator - INFO - Símbolo BTC/USDT es válido
+2025-03-24 16:41:15,286 - core.bot - INFO - Inicializando detector de patrones...
+2025-03-24 16:41:15,399 - core.pattern_detector - INFO - Patrones cargados: 3587
+2025-03-24 16:41:15,399 - core.bot - INFO - Inicializando ejecutor de trades...
+2025-03-24 16:41:15,399 - core.bot - INFO - Todos los componentes inicializados correctamente
+2025-03-24 16:41:15,399 - core.bot - INFO - Cargando datos históricos de 30 días para BTC/USD...
+2025-03-24 16:41:15,399 - core.data_fetcher - INFO - Obteniendo datos históricos para BTC/USD en timeframe 1h de los últimos 30 días
+2025-03-24 16:41:17,762 - core.data_fetcher - ERROR - Error al obtener datos históricos: name 'pd' is not defined
+2025-03-24 16:41:17,762 - core.bot - ERROR - Error al cargar datos históricos: name 'pd' is not defined
+2025-03-24 16:41:17,762 - core.bot - ERROR - No se pudieron cargar datos históricos. Abortando.
+2025-03-24 16:41:17,762 - core.bot - INFO - Liberando recursos del bot...
+2025-03-24 16:41:18,279 - core.bot - INFO - Recursos del bot liberados.
+2025-03-24 16:41:18,279 - core.bot - INFO - Bot finalizado correctamente.
+2025-03-24 16:46:36,116 - main - INFO - Exchange inicializado correctamente
+2025-03-24 16:46:37,337 - main - INFO - Configuración cargada correctamente
+2025-03-24 16:46:39,396 - main - INFO - Iniciando recopilación de datos...
+2025-03-24 16:46:39,406 - main - INFO - Configuración temporal actualizada en memoria.
+2025-03-24 16:46:39,406 - data_collector - INFO - Inicializando recopilador de datos históricos...
+2025-03-24 16:46:39,406 - data_collector - INFO - Inicializando validador de símbolos...
+2025-03-24 16:46:41,228 - utils.symbol_validator - INFO - Validador de símbolos inicializado para kraken
+2025-03-24 16:46:41,238 - data_collector - INFO - Inicializando data fetcher...
+2025-03-24 16:46:41,255 - core.data_fetcher - INFO - Exchange kraken inicializado correctamente
+2025-03-24 16:46:43,133 - utils.symbol_validator - INFO - Validador de símbolos inicializado para kraken
+2025-03-24 16:46:43,133 - utils.symbol_validator - INFO - Símbolo BTC/USDT es válido
+2025-03-24 16:46:46,163 - data_collector - ERROR - Error en la recopilación de datos: 'DataCollector' object has no attribute 'symbols_cache'
+2025-03-24 16:46:46,163 - data_collector - INFO - Liberando recursos...
+2025-03-24 16:46:46,681 - main - INFO - Recopilación de datos completada
+2025-03-24 16:46:46,681 - main - ERROR - Error al leer archivo 1INCH_EUR_1h.json: Expecting value: line 1 column 16 (char 15)
+2025-03-24 16:46:47,870 - main - INFO - Data collector marcado para cierre
+2025-03-24 16:46:56,676 - main - INFO - Iniciando análisis de patrones...
+2025-03-24 16:46:56,686 - utils.database - INFO - Base de datos inicializada en data/patterns.db
+2025-03-24 16:46:56,800 - core.pattern_analyzer - INFO - Patrones confiables: 0
+2025-03-24 16:46:56,807 - main - INFO - Análisis de patrones completado
+2025-03-24 16:46:56,808 - main - INFO - No se encontraron patrones que cumplan los criterios
+2025-03-24 16:47:11,517 - main - INFO - Iniciando análisis de patrones...
+2025-03-24 16:47:11,517 - main - WARNING - No se pudo cerrar patrón_analyzer previo: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 12316 and this is thread id 11416.
+2025-03-24 16:47:11,517 - utils.database - INFO - Base de datos inicializada en data/patterns.db
+2025-03-24 16:47:11,768 - core.pattern_analyzer - INFO - Patrones confiables: 0
+2025-03-24 16:47:11,774 - main - INFO - Análisis de patrones completado
+2025-03-24 16:47:11,775 - main - INFO - No se encontraron patrones que cumplan los criterios
+2025-03-24 16:47:17,235 - main - INFO - Iniciando backtesting...
+2025-03-24 16:47:17,259 - core.data_fetcher - INFO - Exchange kraken inicializado correctamente
+2025-03-24 16:47:17,260 - core.bot - INFO - Bot inicializado para símbolo 1INCH/EUR en timeframe 1h
+2025-03-24 16:47:17,262 - core.bot - INFO - Inicializando componentes del bot...
+2025-03-24 16:47:17,263 - core.bot - INFO - Inicializando base de datos...
+2025-03-24 16:47:17,265 - utils.database - INFO - Base de datos inicializada en data/patterns.db
+2025-03-24 16:47:17,266 - core.bot - INFO - Inicializando data fetcher para 1INCH/EUR...
+2025-03-24 16:47:19,062 - utils.symbol_validator - INFO - Validador de símbolos inicializado para kraken
+2025-03-24 16:47:19,062 - utils.symbol_validator - INFO - Símbolo BTC/USDT es válido
+2025-03-24 16:47:22,024 - core.bot - INFO - Inicializando detector de patrones...
+2025-03-24 16:47:22,135 - core.pattern_detector - INFO - Patrones cargados: 3587
+2025-03-24 16:47:22,136 - core.bot - INFO - Inicializando ejecutor de trades...
+2025-03-24 16:47:22,136 - core.bot - INFO - Todos los componentes inicializados correctamente
+2025-03-24 16:47:22,136 - core.data_fetcher - INFO - Obteniendo datos históricos para 1INCH/EUR en timeframe 1h de los últimos 30 días
+2025-03-24 16:47:24,589 - core.data_fetcher - INFO - Obtenidos 720 datos históricos
+2025-03-24 16:47:24,590 - core.bot - ERROR - Error al cargar datos históricos: type object 'Candle' has no attribute 'from_dict'
+2025-03-24 16:47:24,591 - main - ERROR - Error en hilo de trabajo: No se pudieron cargar datos históricos para backtest
+2025-03-24 16:47:24,592 - main - ERROR - Error en el backtesting: No se pudieron cargar datos históricos para backtest
+2025-03-24 16:47:32,079 - main - INFO - Iniciando trading en vivo...
+2025-03-24 16:47:32,102 - core.data_fetcher - INFO - Exchange kraken inicializado correctamente
+2025-03-24 16:47:32,103 - core.bot - INFO - Bot inicializado para símbolo 1INCH/EUR en timeframe 1h
+2025-03-24 16:47:32,105 - core.bot - INFO - Inicializando componentes del bot...
+2025-03-24 16:47:32,105 - core.bot - INFO - Inicializando base de datos...
+2025-03-24 16:47:32,108 - utils.database - INFO - Base de datos inicializada en data/patterns.db
+2025-03-24 16:47:32,108 - core.bot - INFO - Inicializando data fetcher para 1INCH/EUR...
+2025-03-24 16:47:33,888 - utils.symbol_validator - INFO - Validador de símbolos inicializado para kraken
+2025-03-24 16:47:33,888 - utils.symbol_validator - INFO - Símbolo BTC/USDT es válido
+2025-03-24 16:47:36,817 - core.bot - INFO - Inicializando detector de patrones...
+2025-03-24 16:47:36,931 - core.pattern_detector - INFO - Patrones cargados: 3587
+2025-03-24 16:47:36,932 - core.bot - INFO - Inicializando ejecutor de trades...
+2025-03-24 16:47:36,932 - core.bot - INFO - Todos los componentes inicializados correctamente
+2025-03-24 16:47:36,933 - core.bot - INFO - Cargando datos históricos de 30 días para 1INCH/EUR...
+2025-03-24 16:47:36,933 - core.data_fetcher - INFO - Obteniendo datos históricos para 1INCH/EUR en timeframe 1h de los últimos 30 días
+2025-03-24 16:47:39,350 - core.data_fetcher - INFO - Obtenidos 720 datos históricos
+2025-03-24 16:47:39,350 - core.bot - ERROR - Error al cargar datos históricos: type object 'Candle' has no attribute 'from_dict'
+2025-03-24 16:47:39,350 - core.bot - ERROR - No se pudieron cargar datos históricos. Abortando.
+2025-03-24 16:47:39,360 - core.bot - INFO - Liberando recursos del bot...
+2025-03-24 16:47:39,875 - core.bot - INFO - Recursos del bot liberados.
+2025-03-24 16:47:39,875 - core.bot - INFO - Bot finalizado correctamente.
+2025-03-24 16:47:46,362 - main - ERROR - Error en closeEvent: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 11416 and this is thread id 12072.
+2025-03-24 16:57:13,311 - main - INFO - Exchange inicializado correctamente
+2025-03-24 16:57:14,567 - main - INFO - Configuración cargada correctamente
+2025-03-24 16:57:16,084 - main - INFO - Iniciando recopilación de datos...
+2025-03-24 16:57:16,084 - main - INFO - Configuración temporal actualizada en memoria.
+2025-03-24 16:57:16,084 - data_collector - INFO - Inicializando recopilador de datos históricos...
+2025-03-24 16:57:16,084 - data_collector - INFO - Inicializando validador de símbolos...
+2025-03-24 16:57:18,012 - utils.symbol_validator - INFO - Validador de símbolos inicializado para kraken
+2025-03-24 16:57:18,012 - data_collector - INFO - Inicializando data fetcher...
+2025-03-24 16:57:18,033 - core.data_fetcher - INFO - Exchange kraken inicializado correctamente
+2025-03-24 16:57:19,797 - utils.symbol_validator - INFO - Validador de símbolos inicializado para kraken
+2025-03-24 16:57:19,797 - utils.symbol_validator - INFO - Símbolo BTC/USDT es válido
+2025-03-24 16:57:22,706 - data_collector - ERROR - Error en la recopilación de datos: 'DataCollector' object has no attribute 'validate_symbol'
+2025-03-24 16:57:22,706 - data_collector - INFO - Liberando recursos...
+2025-03-24 16:57:23,234 - main - INFO - Recopilación de datos completada
+2025-03-24 16:57:24,423 - main - INFO - Data collector marcado para cierre
+2025-03-24 16:57:50,928 - main - INFO - Iniciando análisis de patrones...
+2025-03-24 16:57:50,938 - utils.database - INFO - Base de datos inicializada en data/patterns.db
+2025-03-24 16:57:51,056 - core.pattern_analyzer - INFO - Patrones confiables: 0
+2025-03-24 16:57:51,062 - main - INFO - Análisis de patrones completado
+2025-03-24 16:57:51,063 - main - INFO - No se encontraron patrones que cumplan los criterios
+2025-03-24 16:57:54,785 - main - INFO - Iniciando backtesting...
+2025-03-24 16:57:54,807 - core.data_fetcher - INFO - Exchange kraken inicializado correctamente
+2025-03-24 16:57:54,808 - core.bot - INFO - Bot inicializado para símbolo 1INCH/EUR en timeframe 1h
+2025-03-24 16:57:54,810 - core.bot - INFO - Inicializando componentes del bot...
+2025-03-24 16:57:54,811 - core.bot - INFO - Inicializando base de datos...
+2025-03-24 16:57:54,813 - utils.database - INFO - Base de datos inicializada en data/patterns.db
+2025-03-24 16:57:54,814 - core.bot - INFO - Inicializando data fetcher para 1INCH/EUR...
+2025-03-24 16:57:56,879 - utils.symbol_validator - INFO - Validador de símbolos inicializado para kraken
+2025-03-24 16:57:56,879 - utils.symbol_validator - INFO - Símbolo BTC/USDT es válido
+2025-03-24 16:57:59,851 - core.bot - INFO - Inicializando detector de patrones...
+2025-03-24 16:57:59,973 - core.pattern_detector - INFO - Patrones cargados: 3587
+2025-03-24 16:57:59,974 - core.bot - INFO - Inicializando ejecutor de trades...
+2025-03-24 16:57:59,975 - core.bot - INFO - Todos los componentes inicializados correctamente
+2025-03-24 16:57:59,976 - core.data_fetcher - INFO - Obteniendo datos históricos para 1INCH/EUR en timeframe 1h de los últimos 30 días
+2025-03-24 16:58:02,382 - core.data_fetcher - INFO - Obtenidos 720 datos históricos
+2025-03-24 16:58:02,382 - core.bot - ERROR - Error al cargar datos históricos: type object 'Candle' has no attribute 'from_dict'
+2025-03-24 16:58:02,382 - main - ERROR - Error en hilo de trabajo: No se pudieron cargar datos históricos para backtest
+2025-03-24 16:58:02,382 - main - ERROR - Error en el backtesting: No se pudieron cargar datos históricos para backtest
+2025-03-24 16:58:18,263 - main - INFO - Iniciando backtesting...
+2025-03-24 16:58:18,279 - core.data_fetcher - INFO - Exchange kraken inicializado correctamente
+2025-03-24 16:58:18,279 - core.bot - INFO - Bot inicializado para símbolo 1INCH/EUR en timeframe 1h
+2025-03-24 16:58:18,284 - core.bot - INFO - Inicializando componentes del bot...
+2025-03-24 16:58:18,284 - core.bot - INFO - Inicializando base de datos...
+2025-03-24 16:58:18,287 - utils.database - INFO - Base de datos inicializada en data/patterns.db
+2025-03-24 16:58:18,288 - core.bot - INFO - Inicializando data fetcher para 1INCH/EUR...
+2025-03-24 16:58:20,062 - utils.symbol_validator - INFO - Validador de símbolos inicializado para kraken
+2025-03-24 16:58:20,062 - utils.symbol_validator - INFO - Símbolo BTC/USDT es válido
+2025-03-24 16:58:23,243 - core.bot - INFO - Inicializando detector de patrones...
+2025-03-24 16:58:23,362 - core.pattern_detector - INFO - Patrones cargados: 3587
+2025-03-24 16:58:23,362 - core.bot - INFO - Inicializando ejecutor de trades...
+2025-03-24 16:58:23,363 - core.bot - INFO - Todos los componentes inicializados correctamente
+2025-03-24 16:58:23,363 - core.data_fetcher - INFO - Obteniendo datos históricos para 1INCH/EUR en timeframe 1h de los últimos 30 días
+2025-03-24 16:58:25,775 - core.data_fetcher - INFO - Obtenidos 720 datos históricos
+2025-03-24 16:58:25,775 - core.bot - ERROR - Error al cargar datos históricos: type object 'Candle' has no attribute 'from_dict'
+2025-03-24 16:58:25,775 - main - ERROR - Error en hilo de trabajo: No se pudieron cargar datos históricos para backtest
+2025-03-24 16:58:25,775 - main - ERROR - Error en el backtesting: No se pudieron cargar datos históricos para backtest
+2025-03-24 16:58:37,210 - main - INFO - Iniciando trading en vivo...
+2025-03-24 16:58:37,234 - core.data_fetcher - INFO - Exchange kraken inicializado correctamente
+2025-03-24 16:58:37,235 - core.bot - INFO - Bot inicializado para símbolo 1INCH/EUR en timeframe 1h
+2025-03-24 16:58:37,238 - core.bot - INFO - Inicializando componentes del bot...
+2025-03-24 16:58:37,239 - core.bot - INFO - Inicializando base de datos...
+2025-03-24 16:58:37,241 - utils.database - INFO - Base de datos inicializada en data/patterns.db
+2025-03-24 16:58:37,242 - core.bot - INFO - Inicializando data fetcher para 1INCH/EUR...
+2025-03-24 16:58:38,936 - ccxt.base.exchange - WARNING - kraken requires to release all resources with an explicit call to the .close() coroutine. If you are using the exchange instance with async coroutines, add `await exchange.close()` to your code into a place when you're done with the exchange and don't need the exchange instance anymore (at the end of your async coroutine).
+2025-03-24 16:58:38,936 - asyncio - ERROR - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x000001227E36ABC0>, 67345.296)]']
+connector: <aiohttp.connector.TCPConnector object at 0x000001227E46BE50>
+2025-03-24 16:58:38,936 - ccxt.base.exchange - WARNING - kraken requires to release all resources with an explicit call to the .close() coroutine. If you are using the exchange instance with async coroutines, add `await exchange.close()` to your code into a place when you're done with the exchange and don't need the exchange instance anymore (at the end of your async coroutine).
+2025-03-24 16:58:38,936 - asyncio - ERROR - Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x000001227ED36530>
+transport: <_SelectorSocketTransport closing fd=2832>
+Traceback (most recent call last):
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 924, in write
+    n = self._sock.send(data)
+OSError: [WinError 10038] Se intentó realizar una operación en un elemento que no es un socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\sslproto.py", line 690, in _process_write_backlog
+    self._transport.write(chunk)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 930, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 725, in _fatal_error
+    self._force_close(exc)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 737, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 753, in call_soon
+    self._check_closed()
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 515, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2025-03-24 16:58:38,953 - asyncio - ERROR - Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x000001227E46BEB0>
+transport: <_SelectorSocketTransport closing fd=2836>
+Traceback (most recent call last):
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 924, in write
+    n = self._sock.send(data)
+OSError: [WinError 10038] Se intentó realizar una operación en un elemento que no es un socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\sslproto.py", line 690, in _process_write_backlog
+    self._transport.write(chunk)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 930, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 725, in _fatal_error
+    self._force_close(exc)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 737, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 753, in call_soon
+    self._check_closed()
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 515, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2025-03-24 16:58:38,959 - asyncio - ERROR - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x000001227E36A6E0>, 67341.921)]']
+connector: <aiohttp.connector.TCPConnector object at 0x000001227ED35D20>
+2025-03-24 16:58:39,297 - utils.symbol_validator - INFO - Validador de símbolos inicializado para kraken
+2025-03-24 16:58:39,297 - utils.symbol_validator - INFO - Símbolo BTC/USDT es válido
+2025-03-24 16:58:42,235 - core.bot - INFO - Inicializando detector de patrones...
+2025-03-24 16:58:42,340 - core.pattern_detector - INFO - Patrones cargados: 3587
+2025-03-24 16:58:42,341 - core.bot - INFO - Inicializando ejecutor de trades...
+2025-03-24 16:58:42,341 - core.bot - INFO - Todos los componentes inicializados correctamente
+2025-03-24 16:58:42,342 - core.bot - INFO - Cargando datos históricos de 30 días para 1INCH/EUR...
+2025-03-24 16:58:42,342 - core.data_fetcher - INFO - Obteniendo datos históricos para 1INCH/EUR en timeframe 1h de los últimos 30 días
+2025-03-24 16:58:44,750 - core.data_fetcher - INFO - Obtenidos 720 datos históricos
+2025-03-24 16:58:44,750 - core.bot - ERROR - Error al cargar datos históricos: type object 'Candle' has no attribute 'from_dict'
+2025-03-24 16:58:44,760 - core.bot - ERROR - No se pudieron cargar datos históricos. Abortando.
+2025-03-24 16:58:44,760 - core.bot - INFO - Liberando recursos del bot...
+2025-03-24 16:58:45,289 - core.bot - INFO - Recursos del bot liberados.
+2025-03-24 16:58:45,289 - core.bot - INFO - Bot finalizado correctamente.
+2025-03-24 17:00:21,344 - main - ERROR - Error en closeEvent: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 12824 and this is thread id 8252.
+2025-03-24 19:47:59,948 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-24 19:50:16,300 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-24 19:50:16,894 - root - WARNING - No se pudo cargar settings.json, usando config vacía.
+2025-03-24 19:50:16,894 - root - INFO - Configuración cargada correctamente
+2025-03-24 19:52:11,660 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-24 19:52:12,301 - root - WARNING - No se pudo cargar settings.json, usando config vacía.
+2025-03-24 19:52:12,301 - root - INFO - Configuración cargada correctamente
+2025-03-24 19:56:21,174 - main - INFO - Iniciando recopilación de datos...
+2025-03-24 19:56:27,951 - main - INFO - Iniciando análisis de patrones...
+2025-03-24 19:56:47,240 - main - INFO - Iniciando backtesting...
+2025-03-24 19:56:53,307 - main - INFO - Iniciando trading en vivo...
+2025-03-24 19:56:58,238 - main - INFO - Deteniendo trading en vivo...
+2025-03-24 22:00:25,316 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-24 22:00:25,943 - root - WARNING - No se pudo cargar settings.json, usando config vacía.
+2025-03-24 22:00:25,943 - root - INFO - Configuración cargada correctamente
+2025-03-24 22:00:39,331 - main - INFO - Iniciando recopilación de datos...
+2025-03-24 22:00:39,351 - core.data_fetcher - INFO - Exchange kraken inicializado correctamente
+2025-03-24 22:00:39,351 - core.data_fetcher - INFO - Inicializando DataFetcher para kraken
+2025-03-24 22:00:43,020 - utils.symbol_validator - INFO - Validador de símbolos inicializado para kraken
+2025-03-24 22:00:43,030 - utils.symbol_validator - INFO - Símbolo BTC/USD es válido
+2025-03-24 22:00:43,030 - core.data_fetcher - INFO - Obteniendo datos históricos para BTC/USD en timeframe 1h de los últimos 30 días
+2025-03-24 22:00:44,189 - core.data_fetcher - INFO - Obtenidos 720 datos históricos
+2025-03-24 22:00:44,191 - ccxt.base.exchange - WARNING - kraken requires to release all resources with an explicit call to the .close() coroutine. If you are using the exchange instance with async coroutines, add `await exchange.close()` to your code into a place when you're done with the exchange and don't need the exchange instance anymore (at the end of your async coroutine).
+2025-03-24 22:00:44,196 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001AF5F8766B0>
+2025-03-24 22:00:44,197 - asyncio - ERROR - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x000001AF5EDC6E60>, 85509.64)]']
+connector: <aiohttp.connector.TCPConnector object at 0x000001AF5F875F30>
+2025-03-24 22:00:44,207 - ccxt.base.exchange - WARNING - kraken requires to release all resources with an explicit call to the .close() coroutine. If you are using the exchange instance with async coroutines, add `await exchange.close()` to your code into a place when you're done with the exchange and don't need the exchange instance anymore (at the end of your async coroutine).
+2025-03-24 22:00:44,214 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001AF5F877880>
+2025-03-24 22:00:44,216 - asyncio - ERROR - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x000001AF5EDC7580>, 85508.109)]']
+connector: <aiohttp.connector.TCPConnector object at 0x000001AF5F877C10>
+2025-03-24 22:00:44,241 - main - INFO - Recopilación finalizada: Recopilados 720 registros para BTC/USD-1h
+2025-03-24 22:00:57,535 - main - INFO - Iniciando análisis de patrones...
+2025-03-24 22:00:57,535 - utils.database - INFO - Base de datos inicializada en data/patterns.db
+2025-03-24 22:00:57,618 - core.pattern_analyzer - INFO - Patrones confiables: 0
+2025-03-24 22:00:57,629 - main - INFO - Análisis de patrones completado
+2025-03-24 22:00:57,631 - main - INFO - No se encontraron patrones relevantes
+2025-03-24 22:01:07,749 - main - INFO - Iniciando backtesting...
+2025-03-24 22:01:07,749 - utils.database - INFO - Base de datos inicializada en data/patterns.db
+2025-03-24 22:01:07,749 - backtester - INFO - Backtester inicializado.
+2025-03-24 22:01:07,749 - backtester - INFO - Ejecutando backtest para BTC/USD en 1h
+2025-03-24 22:01:07,763 - main - INFO - Backtesting completado con éxito
+2025-03-24 22:01:56,280 - main - INFO - Iniciando trading en vivo...
+2025-03-24 22:01:56,289 - core.bot - INFO - Bot inicializado para símbolo BTC/USD en timeframe 1h
+2025-03-24 22:01:56,289 - core.bot - INFO - Inicializando componentes del bot...
+2025-03-24 22:01:56,289 - core.bot - INFO - Inicializando base de datos...
+2025-03-24 22:01:56,289 - utils.database - INFO - Base de datos inicializada en data/patterns.db
+2025-03-24 22:01:56,289 - core.bot - INFO - Inicializando data fetcher para BTC/USD...
+2025-03-24 22:01:56,309 - core.data_fetcher - INFO - Exchange kraken inicializado correctamente
+2025-03-24 22:01:56,309 - core.data_fetcher - INFO - Inicializando DataFetcher para kraken
+2025-03-24 22:01:58,061 - core.bot - INFO - Inicializando detector de patrones...
+2025-03-24 22:01:58,151 - core.pattern_detector - INFO - Patrones cargados: 3587
+2025-03-24 22:01:58,151 - core.bot - INFO - Inicializando ejecutor de trades...
+2025-03-24 22:01:58,161 - core.bot - INFO - Todos los componentes inicializados correctamente
+2025-03-24 22:03:19,143 - main - INFO - Deteniendo trading en vivo...
+2025-03-24 22:03:19,143 - core.bot - INFO - Señal de stop enviada al bot.
+2025-03-24 22:03:19,202 - main - INFO - Hilo de trading finalizado: success=True, msg=Trading en vivo finalizado
+2025-03-24 22:08:24,548 - ccxt.base.exchange - WARNING - kraken requires to release all resources with an explicit call to the .close() coroutine. If you are using the exchange instance with async coroutines, add `await exchange.close()` to your code into a place when you're done with the exchange and don't need the exchange instance anymore (at the end of your async coroutine).
+2025-03-24 22:08:24,567 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001AF679D4A90>
+2025-03-24 22:08:24,575 - asyncio - ERROR - Exception in default exception handler
+Traceback (most recent call last):
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 1784, in call_exception_handler
+    self.default_exception_handler(context)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 1758, in default_exception_handler
+    logger.error('\n'.join(log_lines), exc_info=exc_info)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1506, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1624, in _log
+    self.handle(record)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 968, in handle
+    self.emit(record)
+  File "C:\Users\jr_ma\Desktop\tradingggg\trading_pattern_analyzer\main.py", line 160, in emit
+    self.signal.emit(msg)
+AttributeError: 'TradingPatternAnalyzerApp' does not have a signal with the signature log_signal(QString)
+2025-03-24 22:43:21,711 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-24 22:46:55,131 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-24 22:48:20,610 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-24 22:50:42,875 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-24 22:59:03,626 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-24 23:00:21,314 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-24 23:01:13,356 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-24 23:03:48,374 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-24 23:05:33,260 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-24 23:07:48,982 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-24 23:08:26,367 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-24 23:10:59,777 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-24 23:12:33,891 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-24 23:13:37,338 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-24 23:15:00,575 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-24 23:15:28,114 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-24 23:17:20,163 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-24 23:17:56,930 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-24 23:18:26,164 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-24 23:20:40,498 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-24 23:26:09,683 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-24 23:31:49,099 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-24 23:32:32,010 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-24 23:33:14,292 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-24 23:40:19,252 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-24 23:40:20,522 - root - WARNING - No se pudo cargar settings.json, usando config vacía.
+2025-03-24 23:40:20,522 - root - INFO - Configuración cargada correctamente
+2025-03-24 23:41:12,413 - main - INFO - Iniciando recopilación de datos...
+2025-03-24 23:41:12,433 - core.data_fetcher - INFO - Exchange kraken inicializado correctamente
+2025-03-24 23:41:12,433 - core.data_fetcher - INFO - Inicializando DataFetcher para kraken
+2025-03-24 23:41:16,107 - utils.symbol_validator - INFO - Validador de símbolos inicializado para kraken
+2025-03-24 23:41:16,107 - utils.symbol_validator - INFO - Símbolo BTC/USD es válido
+2025-03-24 23:41:16,117 - core.data_fetcher - INFO - Obteniendo datos históricos para BTC/USD en timeframe 1h de los últimos 30 días
+2025-03-24 23:41:17,248 - core.data_fetcher - INFO - Obtenidos 720 datos históricos
+2025-03-24 23:41:17,248 - ccxt.base.exchange - WARNING - kraken requires to release all resources with an explicit call to the .close() coroutine. If you are using the exchange instance with async coroutines, add `await exchange.close()` to your code into a place when you're done with the exchange and don't need the exchange instance anymore (at the end of your async coroutine).
+2025-03-24 23:41:17,248 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000026342236E60>
+2025-03-24 23:41:17,258 - asyncio - ERROR - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x0000026342143220>, 91542.687)]']
+connector: <aiohttp.connector.TCPConnector object at 0x00000263422366E0>
+2025-03-24 23:41:17,258 - ccxt.base.exchange - WARNING - kraken requires to release all resources with an explicit call to the .close() coroutine. If you are using the exchange instance with async coroutines, add `await exchange.close()` to your code into a place when you're done with the exchange and don't need the exchange instance anymore (at the end of your async coroutine).
+2025-03-24 23:41:17,258 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000263422375E0>
+2025-03-24 23:41:17,268 - asyncio - ERROR - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x0000026342143940>, 91541.203)]']
+connector: <aiohttp.connector.TCPConnector object at 0x00000263422378B0>
+2025-03-24 23:41:17,278 - main - INFO - Recopilación finalizada: Recopilados 720 registros para BTC/USD-1h
+2025-03-24 23:43:27,940 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-24 23:43:29,252 - root - WARNING - No se pudo cargar settings.json, usando config vacía.
+2025-03-24 23:43:29,252 - root - INFO - Configuración cargada correctamente
+2025-03-24 23:48:17,420 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-24 23:48:18,847 - root - WARNING - No se pudo cargar settings.json, usando config vacía.
+2025-03-24 23:48:18,848 - root - INFO - Configuración cargada correctamente
+2025-03-24 23:48:38,014 - main - INFO - Iniciando recopilación de datos...
+2025-03-24 23:48:38,038 - core.data_fetcher - INFO - Exchange kraken inicializado correctamente
+2025-03-24 23:48:38,040 - core.data_fetcher - INFO - Inicializando DataFetcher para kraken
+2025-03-24 23:48:41,768 - utils.symbol_validator - INFO - Validador de símbolos inicializado para kraken
+2025-03-24 23:48:41,768 - utils.symbol_validator - INFO - Símbolo BTC/USD es válido
+2025-03-24 23:48:41,768 - core.data_fetcher - INFO - Obteniendo datos históricos para BTC/USD en timeframe 1h de los últimos 30 días
+2025-03-24 23:48:42,919 - core.data_fetcher - INFO - Obtenidos 720 datos históricos
+2025-03-24 23:48:42,922 - ccxt.base.exchange - WARNING - kraken requires to release all resources with an explicit call to the .close() coroutine. If you are using the exchange instance with async coroutines, add `await exchange.close()` to your code into a place when you're done with the exchange and don't need the exchange instance anymore (at the end of your async coroutine).
+2025-03-24 23:48:42,925 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001DDDD156C80>
+2025-03-24 23:48:42,929 - asyncio - ERROR - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x000001DDDD063280>, 91988.359)]']
+connector: <aiohttp.connector.TCPConnector object at 0x000001DDDD156500>
+2025-03-24 23:48:42,935 - ccxt.base.exchange - WARNING - kraken requires to release all resources with an explicit call to the .close() coroutine. If you are using the exchange instance with async coroutines, add `await exchange.close()` to your code into a place when you're done with the exchange and don't need the exchange instance anymore (at the end of your async coroutine).
+2025-03-24 23:48:42,938 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001DDDD157E20>
+2025-03-24 23:48:42,941 - asyncio - ERROR - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x000001DDDD0639A0>, 91986.843)]']
+connector: <aiohttp.connector.TCPConnector object at 0x000001DDDD157E50>
+2025-03-24 23:48:42,948 - main - INFO - Recopilación finalizada: Recopilados 720 registros para BTC/USD-1h
+2025-03-24 23:49:07,103 - main - INFO - Iniciando análisis de patrones...
+2025-03-24 23:49:07,113 - utils.database - INFO - Base de datos inicializada en data/patterns.db
+2025-03-24 23:49:07,193 - core.pattern_analyzer - INFO - Patrones confiables: 0
+2025-03-24 23:49:07,203 - main - INFO - Análisis de patrones completado
+2025-03-24 23:49:07,203 - main - INFO - No se encontraron patrones relevantes
+2025-03-24 23:49:13,061 - main - INFO - Iniciando backtesting...
+2025-03-24 23:49:13,061 - utils.database - INFO - Base de datos inicializada en data/patterns.db
+2025-03-24 23:49:13,061 - backtester - INFO - Backtester inicializado.
+2025-03-24 23:49:13,061 - backtester - INFO - Ejecutando backtest para BTC/USD en 1h
+2025-03-24 23:49:13,071 - main - INFO - Backtesting completado con éxito
+2025-03-24 23:49:28,363 - main - INFO - Iniciando trading en vivo...
+2025-03-24 23:49:28,373 - core.bot - INFO - Bot inicializado para símbolo BTC/USD en timeframe 1h
+2025-03-24 23:49:28,373 - core.bot - INFO - Inicializando componentes del bot...
+2025-03-24 23:49:28,373 - core.bot - INFO - Inicializando base de datos...
+2025-03-24 23:49:28,373 - utils.database - INFO - Base de datos inicializada en data/patterns.db
+2025-03-24 23:49:28,383 - core.bot - INFO - Inicializando data fetcher para BTC/USD...
+2025-03-24 23:49:28,403 - core.data_fetcher - INFO - Exchange kraken inicializado correctamente
+2025-03-24 23:49:28,403 - core.data_fetcher - INFO - Inicializando DataFetcher para kraken
+2025-03-24 23:49:30,194 - core.bot - INFO - Inicializando detector de patrones...
+2025-03-24 23:49:30,295 - core.pattern_detector - INFO - Patrones cargados: 3587
+2025-03-24 23:49:30,295 - core.bot - INFO - Inicializando ejecutor de trades...
+2025-03-24 23:49:30,295 - core.bot - INFO - Todos los componentes inicializados correctamente
+2025-03-24 23:49:44,394 - main - INFO - Deteniendo trading en vivo...
+2025-03-24 23:49:44,394 - core.bot - INFO - Señal de stop enviada al bot.
+2025-03-24 23:49:45,285 - main - INFO - Hilo de trading finalizado: success=True, msg=Trading en vivo finalizado
+2025-03-24 23:49:46,501 - root - WARNING - No se pudo cargar settings.json, usando config vacía.
+2025-03-24 23:49:46,501 - root - INFO - Configuración cargada correctamente
+2025-03-24 23:50:41,154 - ccxt.base.exchange - WARNING - kraken requires to release all resources with an explicit call to the .close() coroutine. If you are using the exchange instance with async coroutines, add `await exchange.close()` to your code into a place when you're done with the exchange and don't need the exchange instance anymore (at the end of your async coroutine).
+2025-03-24 23:50:41,192 - asyncio - ERROR - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x000001DDDDA6C460>, 92035.39)]']
+connector: <aiohttp.connector.TCPConnector object at 0x000001DDDD1568F0>
+2025-03-24 23:50:41,193 - asyncio - ERROR - Exception in default exception handler
+Traceback (most recent call last):
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 1784, in call_exception_handler
+    self.default_exception_handler(context)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 1758, in default_exception_handler
+    logger.error('\n'.join(log_lines), exc_info=exc_info)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1506, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1624, in _log
+    self.handle(record)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 968, in handle
+    self.emit(record)
+  File "C:\Users\jr_ma\Desktop\tradingggg\trading_pattern_analyzer\main.py", line 157, in emit
+    self.signal.emit(msg)
+AttributeError: 'TradingPatternAnalyzerApp' does not have a signal with the signature log_signal(QString)
+2025-03-24 23:50:41,225 - asyncio - ERROR - Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x000001DDDF6295A0>
+transport: <_SelectorSocketTransport closing fd=2952>
+Traceback (most recent call last):
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 924, in write
+    n = self._sock.send(data)
+OSError: [WinError 10038] Se intentó realizar una operación en un elemento que no es un socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\sslproto.py", line 690, in _process_write_backlog
+    self._transport.write(chunk)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 930, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 725, in _fatal_error
+    self._force_close(exc)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 737, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 753, in call_soon
+    self._check_closed()
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 515, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2025-03-24 23:50:41,243 - asyncio - ERROR - Exception in default exception handler
+Traceback (most recent call last):
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 924, in write
+    n = self._sock.send(data)
+OSError: [WinError 10038] Se intentó realizar una operación en un elemento que no es un socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\sslproto.py", line 690, in _process_write_backlog
+    self._transport.write(chunk)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 930, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 725, in _fatal_error
+    self._force_close(exc)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 737, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 753, in call_soon
+    self._check_closed()
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 515, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 1784, in call_exception_handler
+    self.default_exception_handler(context)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 1758, in default_exception_handler
+    logger.error('\n'.join(log_lines), exc_info=exc_info)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1506, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1624, in _log
+    self.handle(record)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 968, in handle
+    self.emit(record)
+  File "C:\Users\jr_ma\Desktop\tradingggg\trading_pattern_analyzer\main.py", line 157, in emit
+    self.signal.emit(msg)
+AttributeError: 'TradingPatternAnalyzerApp' does not have a signal with the signature log_signal(QString)
+2025-03-25 00:01:31,782 - __main__ - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-25 00:01:32,547 - root - WARNING - No se encontró config/settings.json, creando config por defecto.
+2025-03-25 00:01:32,548 - root - INFO - Archivo config/settings.json creado con valores por defecto.
+2025-03-25 00:01:32,549 - root - INFO - Configuración cargada correctamente (o creada)
+2025-03-25 00:02:38,699 - __main__ - INFO - Iniciando recopilación de datos...
+2025-03-25 00:02:38,719 - core.data_fetcher - INFO - Exchange kraken inicializado correctamente
+2025-03-25 00:02:38,719 - core.data_fetcher - INFO - Inicializando DataFetcher para kraken
+2025-03-25 00:02:42,391 - utils.symbol_validator - INFO - Validador de símbolos inicializado para kraken
+2025-03-25 00:02:42,391 - utils.symbol_validator - INFO - Símbolo BTC/USD es válido
+2025-03-25 00:02:42,391 - core.data_fetcher - INFO - Obteniendo datos históricos para BTC/USD en timeframe 1h de los últimos 30 días
+2025-03-25 00:02:43,562 - core.data_fetcher - INFO - Obtenidos 720 datos históricos
+2025-03-25 00:02:43,564 - root - ERROR - Error en hilo de trabajo: 'DataFetcher' object has no attribute 'close_async_session'
+2025-03-25 00:02:43,584 - __main__ - ERROR - Error en recopilación de datos: 'DataFetcher' object has no attribute 'close_async_session'
+2025-03-25 00:02:57,158 - __main__ - INFO - Iniciando análisis de patrones...
+2025-03-25 00:02:57,168 - utils.database - INFO - Base de datos inicializada en data/patterns.db
+2025-03-25 00:02:57,267 - core.pattern_analyzer - INFO - Patrones confiables: 0
+2025-03-25 00:02:57,269 - __main__ - INFO - Análisis de patrones completado
+2025-03-25 00:02:57,269 - __main__ - INFO - No se encontraron patrones relevantes
+2025-03-25 00:03:06,392 - __main__ - INFO - Iniciando backtesting...
+2025-03-25 00:03:06,402 - utils.database - INFO - Base de datos inicializada en data/patterns.db
+2025-03-25 00:03:06,402 - backtester - INFO - Backtester inicializado.
+2025-03-25 00:03:06,402 - backtester - INFO - Ejecutando backtest para BTC/USD en 1h
+2025-03-25 00:03:06,427 - __main__ - INFO - Backtesting completado con éxito
+2025-03-25 00:44:55,167 - ccxt.base.exchange - WARNING - kraken requires to release all resources with an explicit call to the .close() coroutine. If you are using the exchange instance with async coroutines, add `await exchange.close()` to your code into a place when you're done with the exchange and don't need the exchange instance anymore (at the end of your async coroutine).
+2025-03-25 00:44:55,290 - asyncio - ERROR - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x000001592447F040>, 92829.015)]']
+connector: <aiohttp.connector.TCPConnector object at 0x0000015924584E80>
+2025-03-25 00:44:55,293 - asyncio - ERROR - Exception in default exception handler
+Traceback (most recent call last):
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 1784, in call_exception_handler
+    self.default_exception_handler(context)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 1758, in default_exception_handler
+    logger.error('\n'.join(log_lines), exc_info=exc_info)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1506, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1624, in _log
+    self.handle(record)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 968, in handle
+    self.emit(record)
+  File "C:\Users\jr_ma\Desktop\tradingggg\trading_pattern_analyzer\main.py", line 161, in emit
+    self.signal.emit(msg)
+AttributeError: 'TradingPatternAnalyzerApp' does not have a signal with the signature log_signal(QString)
+2025-03-25 00:44:55,324 - ccxt.base.exchange - WARNING - kraken requires to release all resources with an explicit call to the .close() coroutine. If you are using the exchange instance with async coroutines, add `await exchange.close()` to your code into a place when you're done with the exchange and don't need the exchange instance anymore (at the end of your async coroutine).
+2025-03-25 00:44:55,336 - asyncio - ERROR - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x000001592447F760>, 92827.468)]']
+connector: <aiohttp.connector.TCPConnector object at 0x00000159245866B0>
+2025-03-25 00:44:55,337 - asyncio - ERROR - Exception in default exception handler
+Traceback (most recent call last):
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 1784, in call_exception_handler
+    self.default_exception_handler(context)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 1758, in default_exception_handler
+    logger.error('\n'.join(log_lines), exc_info=exc_info)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1506, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1624, in _log
+    self.handle(record)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 968, in handle
+    self.emit(record)
+  File "C:\Users\jr_ma\Desktop\tradingggg\trading_pattern_analyzer\main.py", line 161, in emit
+    self.signal.emit(msg)
+AttributeError: 'TradingPatternAnalyzerApp' does not have a signal with the signature log_signal(QString)
+2025-03-25 00:44:55,353 - asyncio - ERROR - Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x0000015924586CE0>
+transport: <_SelectorSocketTransport closing fd=2888>
+Traceback (most recent call last):
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 924, in write
+    n = self._sock.send(data)
+OSError: [WinError 10038] Se intentó realizar una operación en un elemento que no es un socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\sslproto.py", line 690, in _process_write_backlog
+    self._transport.write(chunk)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 930, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 725, in _fatal_error
+    self._force_close(exc)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 737, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 753, in call_soon
+    self._check_closed()
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 515, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2025-03-25 00:44:55,361 - asyncio - ERROR - Exception in default exception handler
+Traceback (most recent call last):
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 924, in write
+    n = self._sock.send(data)
+OSError: [WinError 10038] Se intentó realizar una operación en un elemento que no es un socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\sslproto.py", line 690, in _process_write_backlog
+    self._transport.write(chunk)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 930, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 725, in _fatal_error
+    self._force_close(exc)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 737, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 753, in call_soon
+    self._check_closed()
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 515, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 1784, in call_exception_handler
+    self.default_exception_handler(context)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 1758, in default_exception_handler
+    logger.error('\n'.join(log_lines), exc_info=exc_info)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1506, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1624, in _log
+    self.handle(record)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 968, in handle
+    self.emit(record)
+  File "C:\Users\jr_ma\Desktop\tradingggg\trading_pattern_analyzer\main.py", line 161, in emit
+    self.signal.emit(msg)
+AttributeError: 'TradingPatternAnalyzerApp' does not have a signal with the signature log_signal(QString)
+2025-03-25 00:44:55,406 - asyncio - ERROR - Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x0000015924586110>
+transport: <_SelectorSocketTransport closing fd=2880>
+Traceback (most recent call last):
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 924, in write
+    n = self._sock.send(data)
+OSError: [WinError 10038] Se intentó realizar una operación en un elemento que no es un socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\sslproto.py", line 690, in _process_write_backlog
+    self._transport.write(chunk)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 930, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 725, in _fatal_error
+    self._force_close(exc)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 737, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 753, in call_soon
+    self._check_closed()
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 515, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2025-03-25 00:44:55,410 - asyncio - ERROR - Exception in default exception handler
+Traceback (most recent call last):
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 924, in write
+    n = self._sock.send(data)
+OSError: [WinError 10038] Se intentó realizar una operación en un elemento que no es un socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\sslproto.py", line 690, in _process_write_backlog
+    self._transport.write(chunk)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 930, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 725, in _fatal_error
+    self._force_close(exc)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 737, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 753, in call_soon
+    self._check_closed()
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 515, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 1784, in call_exception_handler
+    self.default_exception_handler(context)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 1758, in default_exception_handler
+    logger.error('\n'.join(log_lines), exc_info=exc_info)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1506, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1624, in _log
+    self.handle(record)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 968, in handle
+    self.emit(record)
+  File "C:\Users\jr_ma\Desktop\tradingggg\trading_pattern_analyzer\main.py", line 161, in emit
+    self.signal.emit(msg)
+AttributeError: 'TradingPatternAnalyzerApp' does not have a signal with the signature log_signal(QString)
+2025-03-25 00:46:34,628 - __main__ - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-25 00:46:35,527 - __main__ - WARNING - No se pudo cargar config/settings.json. Asegúrate de que exista.
+2025-03-25 00:46:35,528 - __main__ - INFO - Configuración cargada correctamente
+2025-03-25 00:46:53,476 - __main__ - INFO - Iniciando recopilación de datos...
+2025-03-25 00:46:53,496 - core.data_fetcher - INFO - Exchange kraken inicializado correctamente
+2025-03-25 00:46:53,496 - core.data_fetcher - INFO - Inicializando DataFetcher para kraken
+2025-03-25 00:46:57,138 - utils.symbol_validator - INFO - Validador de símbolos inicializado para kraken
+2025-03-25 00:46:57,138 - utils.symbol_validator - INFO - Símbolo BTC/USD es válido
+2025-03-25 00:46:57,138 - core.data_fetcher - INFO - Obteniendo datos históricos para BTC/USD en timeframe 1h de los últimos 30 días
+2025-03-25 00:46:58,289 - core.data_fetcher - INFO - Obtenidos 720 datos históricos
+2025-03-25 00:46:58,289 - ccxt.base.exchange - WARNING - kraken requires to release all resources with an explicit call to the .close() coroutine. If you are using the exchange instance with async coroutines, add `await exchange.close()` to your code into a place when you're done with the exchange and don't need the exchange instance anymore (at the end of your async coroutine).
+2025-03-25 00:46:58,299 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000268138CCC70>
+2025-03-25 00:46:58,299 - asyncio - ERROR - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x00000268137CB040>, 95483.734)]']
+connector: <aiohttp.connector.TCPConnector object at 0x00000268138CC4F0>
+2025-03-25 00:46:58,299 - ccxt.base.exchange - WARNING - kraken requires to release all resources with an explicit call to the .close() coroutine. If you are using the exchange instance with async coroutines, add `await exchange.close()` to your code into a place when you're done with the exchange and don't need the exchange instance anymore (at the end of your async coroutine).
+2025-03-25 00:46:58,309 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000268138CDE40>
+2025-03-25 00:46:58,309 - asyncio - ERROR - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x00000268137CB760>, 95482.234)]']
+connector: <aiohttp.connector.TCPConnector object at 0x00000268138CE200>
+2025-03-25 00:46:58,319 - __main__ - INFO - Recopilación finalizada: Recopilados 720 registros para BTC/USD-1h
+2025-03-25 00:47:08,566 - __main__ - INFO - Iniciando análisis de patrones...
+2025-03-25 00:47:08,576 - utils.database - INFO - Base de datos inicializada en data/patterns.db
+2025-03-25 00:47:08,666 - core.pattern_analyzer - INFO - Patrones confiables: 0
+2025-03-25 00:47:08,676 - __main__ - INFO - Análisis de patrones completado
+2025-03-25 00:47:08,676 - __main__ - INFO - No se encontraron patrones relevantes
+2025-03-25 00:47:17,883 - __main__ - INFO - Iniciando backtesting...
+2025-03-25 00:47:17,893 - utils.database - INFO - Base de datos inicializada en data/patterns.db
+2025-03-25 00:47:17,893 - backtester - INFO - Backtester inicializado.
+2025-03-25 00:47:17,893 - backtester - INFO - Ejecutando backtest para BTC/USD en 1h
+2025-03-25 00:47:17,913 - __main__ - INFO - Backtesting completado con éxito
+2025-03-25 00:47:34,968 - __main__ - INFO - Iniciando trading en vivo...
+2025-03-25 00:47:34,968 - core.bot - INFO - Bot inicializado para símbolo BTC/USD en timeframe 1h
+2025-03-25 00:47:34,968 - core.bot - INFO - Inicializando componentes del bot...
+2025-03-25 00:47:34,968 - core.bot - INFO - Inicializando base de datos...
+2025-03-25 00:47:34,978 - utils.database - INFO - Base de datos inicializada en data/patterns.db
+2025-03-25 00:47:34,978 - core.bot - INFO - Inicializando data fetcher para BTC/USD...
+2025-03-25 00:47:34,998 - core.data_fetcher - INFO - Exchange kraken inicializado correctamente
+2025-03-25 00:47:34,998 - core.data_fetcher - INFO - Inicializando DataFetcher para kraken
+2025-03-25 00:47:36,760 - core.bot - INFO - Inicializando detector de patrones...
+2025-03-25 00:47:36,852 - core.pattern_detector - INFO - Patrones cargados: 3587
+2025-03-25 00:47:36,852 - core.bot - INFO - Inicializando ejecutor de trades...
+2025-03-25 00:47:36,860 - core.bot - INFO - Todos los componentes inicializados correctamente
+2025-03-25 00:47:56,726 - __main__ - INFO - Deteniendo trading en vivo...
+2025-03-25 00:47:56,726 - core.bot - INFO - Señal de stop enviada al bot.
+2025-03-25 00:47:57,908 - __main__ - INFO - Hilo de trading finalizado: success=True, msg=Trading en vivo finalizado
+2025-03-25 01:10:48,157 - ccxt.base.exchange - WARNING - kraken requires to release all resources with an explicit call to the .close() coroutine. If you are using the exchange instance with async coroutines, add `await exchange.close()` to your code into a place when you're done with the exchange and don't need the exchange instance anymore (at the end of your async coroutine).
+2025-03-25 01:10:48,182 - asyncio - ERROR - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x00000268141D8220>, 95521.953)]']
+connector: <aiohttp.connector.TCPConnector object at 0x00000268138CEF50>
+2025-03-25 01:10:48,182 - asyncio - ERROR - Exception in default exception handler
+Traceback (most recent call last):
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 1784, in call_exception_handler
+    self.default_exception_handler(context)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 1758, in default_exception_handler
+    logger.error('\n'.join(log_lines), exc_info=exc_info)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1506, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1624, in _log
+    self.handle(record)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 968, in handle
+    self.emit(record)
+  File "C:\Users\jr_ma\Desktop\tradingggg\trading_pattern_analyzer\main.py", line 160, in emit
+    self.signal.emit(msg)
+AttributeError: 'TradingPatternAnalyzerApp' does not have a signal with the signature log_signal(QString)
+2025-03-25 01:10:48,223 - asyncio - ERROR - Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x00000268138CFBE0>
+transport: <_SelectorSocketTransport closing fd=2804>
+Traceback (most recent call last):
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 924, in write
+    n = self._sock.send(data)
+OSError: [WinError 10038] Se intentó realizar una operación en un elemento que no es un socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\sslproto.py", line 690, in _process_write_backlog
+    self._transport.write(chunk)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 930, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 725, in _fatal_error
+    self._force_close(exc)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 737, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 753, in call_soon
+    self._check_closed()
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 515, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2025-03-25 01:10:48,230 - asyncio - ERROR - Exception in default exception handler
+Traceback (most recent call last):
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 924, in write
+    n = self._sock.send(data)
+OSError: [WinError 10038] Se intentó realizar una operación en un elemento que no es un socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\sslproto.py", line 690, in _process_write_backlog
+    self._transport.write(chunk)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 930, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 725, in _fatal_error
+    self._force_close(exc)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\selector_events.py", line 737, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 753, in call_soon
+    self._check_closed()
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 515, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 1784, in call_exception_handler
+    self.default_exception_handler(context)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\asyncio\base_events.py", line 1758, in default_exception_handler
+    logger.error('\n'.join(log_lines), exc_info=exc_info)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1506, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1624, in _log
+    self.handle(record)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "C:\Users\jr_ma\miniconda3\envs\trading_env\lib\logging\__init__.py", line 968, in handle
+    self.emit(record)
+  File "C:\Users\jr_ma\Desktop\tradingggg\trading_pattern_analyzer\main.py", line 160, in emit
+    self.signal.emit(msg)
+AttributeError: 'TradingPatternAnalyzerApp' does not have a signal with the signature log_signal(QString)
+2025-03-25 10:35:01,366 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-25 10:35:53,029 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-25 10:39:04,883 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-25 10:39:06,110 - main - ERROR - Error al cargar la configuración: Expecting ',' delimiter: line 57 column 2 (char 1472)
+2025-03-25 10:39:06,110 - main - INFO - Interfaz actualizada con la configuración cargada
+2025-03-25 10:42:45,477 - main - INFO - Recursos de la aplicación limpiados correctamente
+2025-03-25 10:42:54,024 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-25 10:42:55,288 - main - ERROR - Error al cargar la configuración: Expecting property name enclosed in double quotes: line 18 column 3 (char 660)
+2025-03-25 10:42:55,288 - main - INFO - Interfaz actualizada con la configuración cargada
+2025-03-25 10:44:00,462 - main - INFO - Iniciando recopilación de datos...
+2025-03-25 10:44:00,470 - main - ERROR - Error al iniciar la recopilación de datos: 'WorkerThread' object has no attribute 'update_signal'
+2025-03-25 10:48:13,904 - main - INFO - Recursos de la aplicación limpiados correctamente
+2025-03-25 10:48:56,820 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-25 10:48:58,091 - main - ERROR - Error al cargar la configuración: Expecting property name enclosed in double quotes: line 18 column 3 (char 660)
+2025-03-25 10:48:58,101 - main - INFO - Interfaz actualizada con la configuración cargada
+2025-03-25 10:49:03,626 - main - INFO - Iniciando recopilación de datos...
+2025-03-25 10:49:03,626 - main - INFO - Configuración guardada correctamente
+2025-03-25 10:49:03,636 - data_collector - INFO - Inicializando recopilador de datos históricos...
+2025-03-25 10:49:03,636 - data_collector - INFO - Inicializando validador de símbolos...
+2025-03-25 10:49:05,548 - utils.symbol_validator - INFO - Validador de símbolos inicializado para kraken
+2025-03-25 10:49:05,548 - data_collector - INFO - Inicializando data fetcher...
+2025-03-25 10:49:05,578 - core.data_fetcher - INFO - Exchange kraken inicializado correctamente
+2025-03-25 10:49:05,579 - core.data_fetcher - INFO - Inicializando DataFetcher para kraken
+2025-03-25 10:49:07,469 - data_collector - ERROR - Error en la recopilación de datos: 'DataCollector' object has no attribute 'validate_symbol'
+2025-03-25 10:49:07,469 - data_collector - INFO - Liberando recursos...
+2025-03-25 10:49:07,727 - main - INFO - Recopilación de datos completada
+2025-03-25 10:51:34,237 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-25 10:51:35,770 - main - INFO - Configuración cargada correctamente
+2025-03-25 10:51:35,774 - main - INFO - Interfaz actualizada con la configuración cargada
+2025-03-25 10:51:35,777 - main - INFO - Interfaz actualizada con la configuración cargada
+2025-03-25 10:51:40,233 - main - INFO - Iniciando recopilación de datos...
+2025-03-25 10:51:40,233 - main - INFO - Configuración guardada correctamente
+2025-03-25 10:51:40,233 - data_collector - INFO - Inicializando recopilador de datos históricos...
+2025-03-25 10:51:40,233 - data_collector - INFO - Inicializando validador de símbolos...
+2025-03-25 10:51:42,031 - utils.symbol_validator - INFO - Validador de símbolos inicializado para kraken
+2025-03-25 10:51:42,031 - data_collector - INFO - Inicializando data fetcher...
+2025-03-25 10:51:42,055 - core.data_fetcher - INFO - Exchange kraken inicializado correctamente
+2025-03-25 10:51:42,055 - core.data_fetcher - INFO - Inicializando DataFetcher para kraken
+2025-03-25 10:51:43,943 - data_collector - ERROR - Error en la recopilación de datos: 'DataCollector' object has no attribute 'validate_symbol'
+2025-03-25 10:51:43,943 - data_collector - INFO - Liberando recursos...
+2025-03-25 10:51:44,210 - main - INFO - Recopilación de datos completada
+2025-03-25 10:51:45,405 - main - INFO - Data collector marcado para cierre
+2025-03-25 10:57:58,793 - main - INFO - Recursos de la aplicación limpiados correctamente
+2025-03-25 11:03:17,019 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-25 11:03:18,262 - main - INFO - Configuración cargada correctamente
+2025-03-25 11:03:18,265 - main - INFO - Interfaz actualizada con la configuración cargada
+2025-03-25 11:03:18,269 - main - INFO - Interfaz actualizada con la configuración cargada
+2025-03-25 11:03:22,914 - main - INFO - Iniciando recopilación de datos...
+2025-03-25 11:03:22,914 - main - INFO - Configuración guardada correctamente
+2025-03-25 11:03:22,914 - data_collector - INFO - Inicializando recopilador de datos históricos...
+2025-03-25 11:03:22,914 - data_collector - INFO - Inicializando validador de símbolos...
+2025-03-25 11:03:24,717 - utils.symbol_validator - INFO - Validador de símbolos inicializado para kraken
+2025-03-25 11:03:24,717 - data_collector - INFO - Inicializando data fetcher...
+2025-03-25 11:03:24,738 - core.data_fetcher - INFO - Exchange kraken inicializado correctamente
+2025-03-25 11:03:24,739 - core.data_fetcher - INFO - Inicializando DataFetcher para kraken
+2025-03-25 11:03:28,450 - utils.symbol_validator - INFO - Validador de símbolos inicializado para kraken
+2025-03-25 11:03:28,450 - utils.symbol_validator - INFO - Símbolo 1INCH/EUR es válido
+2025-03-25 11:03:28,450 - data_collector - INFO - Recopilando datos históricos para 1INCH/EUR en timeframe 1h...
+2025-03-25 11:03:28,450 - data_collector - ERROR - Error al inicializar recopilador: 'DataCollector' object has no attribute 'symbol_validator'
+2025-03-25 11:03:28,450 - data_collector - INFO - Liberando recursos...
+2025-03-25 11:03:28,721 - main - INFO - Recopilación de datos completada
+2025-03-25 11:03:29,913 - main - INFO - Data collector marcado para cierre
+2025-03-25 11:07:36,267 - main - INFO - Recursos de la aplicación limpiados correctamente
+2025-03-25 11:08:20,066 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-25 11:08:21,307 - main - INFO - Configuración cargada correctamente
+2025-03-25 11:08:21,307 - main - INFO - Interfaz actualizada con la configuración cargada
+2025-03-25 11:08:21,319 - main - INFO - Interfaz actualizada con la configuración cargada
+2025-03-25 11:08:25,141 - main - INFO - Iniciando recopilación de datos...
+2025-03-25 11:08:25,151 - main - INFO - Configuración guardada correctamente
+2025-03-25 11:08:25,151 - data_collector - INFO - Inicializando recopilador de datos históricos...
+2025-03-25 11:08:25,151 - data_collector - INFO - Inicializando validador de símbolos...
+2025-03-25 11:08:27,022 - utils.symbol_validator - INFO - Validador de símbolos inicializado para kraken
+2025-03-25 11:08:27,022 - data_collector - INFO - Inicializando data fetcher...
+2025-03-25 11:08:27,048 - core.data_fetcher - INFO - Exchange kraken inicializado correctamente
+2025-03-25 11:08:27,048 - core.data_fetcher - INFO - Inicializando DataFetcher para kraken
+2025-03-25 11:08:30,748 - utils.symbol_validator - INFO - Validador de símbolos inicializado para kraken
+2025-03-25 11:08:30,748 - utils.symbol_validator - INFO - Símbolo 1INCH/EUR es válido
+2025-03-25 11:08:30,748 - data_collector - INFO - Recopilando datos históricos para 1INCH/EUR en timeframe 1h...
+2025-03-25 11:08:30,748 - data_collector - ERROR - Error al inicializar recopilador: 'DataCollector' object has no attribute 'validate_symbol'
+2025-03-25 11:08:30,748 - data_collector - INFO - Liberando recursos...
+2025-03-25 11:08:31,008 - main - INFO - Recopilación de datos completada
+2025-03-25 11:08:32,192 - main - INFO - Data collector marcado para cierre
+2025-03-25 11:10:23,881 - main - INFO - Recursos de la aplicación limpiados correctamente
+2025-03-25 11:10:33,679 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-25 11:10:35,022 - main - INFO - Configuración cargada correctamente
+2025-03-25 11:10:35,022 - main - INFO - Interfaz actualizada con la configuración cargada
+2025-03-25 11:10:35,033 - main - INFO - Interfaz actualizada con la configuración cargada
+2025-03-25 11:10:37,425 - main - INFO - Iniciando recopilación de datos...
+2025-03-25 11:10:37,435 - main - INFO - Configuración guardada correctamente
+2025-03-25 11:10:37,435 - data_collector - INFO - Inicializando recopilador de datos históricos...
+2025-03-25 11:10:37,435 - data_collector - INFO - Inicializando validador de símbolos...
+2025-03-25 11:10:39,351 - utils.symbol_validator - INFO - Validador de símbolos inicializado para kraken
+2025-03-25 11:10:39,351 - data_collector - INFO - Inicializando data fetcher...
+2025-03-25 11:10:39,369 - core.data_fetcher - INFO - Exchange kraken inicializado correctamente
+2025-03-25 11:10:39,369 - core.data_fetcher - INFO - Inicializando DataFetcher para kraken
+2025-03-25 11:10:41,420 - data_collector - ERROR - Error en la recopilación de datos: 'DataCollector' object has no attribute 'validate_symbol'
+2025-03-25 11:10:41,420 - data_collector - INFO - Liberando recursos...
+2025-03-25 11:10:41,684 - main - INFO - Recopilación de datos completada
+2025-03-25 11:10:42,877 - main - INFO - Data collector marcado para cierre
+2025-03-25 11:18:01,687 - main - INFO - Recursos de la aplicación limpiados correctamente
+2025-03-25 11:21:50,290 - main - INFO - Exchange inicializado correctamente (Símbolos cargados).
+2025-03-25 11:21:51,628 - main - INFO - Configuración cargada correctamente
+2025-03-25 11:21:51,633 - main - INFO - Interfaz actualizada con la configuración cargada
+2025-03-25 11:21:51,636 - main - INFO - Interfaz actualizada con la configuración cargada
+2025-03-25 11:21:56,380 - main - INFO - Iniciando recopilación de datos...
+2025-03-25 11:21:56,390 - main - INFO - Configuración guardada correctamente
+2025-03-25 11:21:56,393 - data_collector - INFO - Inicializando recopilador de datos históricos...
+2025-03-25 11:21:56,393 - data_collector - INFO - Inicializando validador de símbolos...
+2025-03-25 11:21:58,222 - utils.symbol_validator - INFO - Validador de símbolos inicializado para kraken
+2025-03-25 11:21:58,222 - data_collector - INFO - Inicializando data fetcher...
+2025-03-25 11:21:58,248 - core.data_fetcher - INFO - Exchange kraken inicializado correctamente
+2025-03-25 11:21:58,249 - core.data_fetcher - INFO - Inicializando DataFetcher para kraken
+2025-03-25 11:22:00,122 - main - ERROR - Error en la recopilación asíncrona: DataCollector.run() missing 1 required positional argument: 'symbol_validator'
+2025-03-25 11:22:00,122 - data_collector - INFO - Liberando recursos...
+2025-03-25 11:22:00,385 - main - INFO - Data collector cerrado debido a error
+2025-03-25 11:22:00,385 - root - ERROR - Error en hilo de trabajo: DataCollector.run() missing 1 required positional argument: 'symbol_validator'
+2025-03-25 11:22:00,395 - main - ERROR - Error en la recopilación de datos: DataCollector.run() missing 1 required positional argument: 'symbol_validator'
+2025-03-25 11:22:00,410 - main - INFO - Data collector marcado para cierre
+2025-03-25 11:25:27,753 - main - INFO - Recursos de la aplicación limpiados correctamente

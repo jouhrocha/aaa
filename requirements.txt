@@ -1,0 +1,35 @@
+ccxt>=2.0.0
+pandas>=1.3.0
+numpy>=1.24.3
+matplotlib>=3.4.0
+python-dotenv>=0.19.0
+aiohttp>=3.8.0
+asyncio>=3.4.3
+inquirer>=3.4.0
+TA-Lib>=0.4.26
+argparse>=1.4.0
+PyQt5>=5.15.4
+
+# Trading Bot Project
+
+Este proyecto es un bot de trading en Python con interfaz gráfica (PyQt5). Ofrece:
+
+- **Trading en vivo** (usando Kraken a través de CCXT).
+- **Backtesting** con análisis de patrones e indicadores.
+- **Recopilación de datos históricos** para distintos símbolos/timeframes.
+- **Interfaz** con pestañas de Configuración, Dashboard, Análisis de Patrones, Backtest y Trading en Vivo.
+- **Visualización de Logs** en la consola dentro de la UI.
+- **Almacenamiento** en base de datos local (SQLite) para patrones y en ficheros JSON para velas históricas.
+
+## Requisitos
+
+- Python 3.8+
+- Instalar librerías: `pip install -r requirements.txt`
+  - PyQt5, ccxt, asyncio, talib (opcional), etc.
+
+## Uso
+
+1. Ajusta tus claves de Kraken en `config/settings.json` si vas a operar en real (API Key y Secret).
+2. Ejecuta:
+   ```bash
+   python main.py
